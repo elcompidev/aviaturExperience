@@ -1,0 +1,72 @@
+/* login.css - Estilos personalizados para Login.js */
+
+.login-container {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #f1f5f9;
+    /* similar a bg-blueGray-100 */
+    background-image: url('https://media.viajando.travel/p/fc91755e0b07518515742abfac051fcf/adjuntos/236/imagenes/000/776/0000776922/1200x0/smart/hotel-las-islas-bungalow2webp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*.login-card {
+    width: 100%;
+    max-width: 33.333%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}*/
+
+.login-card {
+    width: 100%;
+    max-width: 33.333%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.15);
+    /* fondo semitransparente */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.login-button {
+    background-color: white;
+    color: #4a5568;
+    /* blueGray-700 */
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 150ms ease-in-out;
+}
+
+.boton {
+    background-color: #025DB8
+}
+
+.login-button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    COLOR: #ffffff;
+    font-size: 2.5rem !important;
+    text-align: center;
+}

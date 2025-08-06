@@ -1,0 +1,34 @@
+{
+    "code": 200,
+    "success": true,
+    "reservations": {
+        "codigo": "",
+        "estado": "",
+        "titular": {
+            "nombre": "",
+            "apellidos": "",
+            "documento": "",
+            "tipoDocumento": ""
+        },
+        "factura": {
+            "codigo": "",
+            "pdf": ""
+        },
+        "pasajeros": [{
+            "nombre": "",
+            "apellidos": "",
+            "documento": "",
+            "tipoDocumento": "",
+            "fechaNacimiento": ""
+        }],
+        "vuelos": [{
+            "id": 77,
+            "aerolinea": "Avianca",
+            "modeloAvion": "Airbus A320",
+            "origen": "Bogotá, Colombia (BOG)",
+            "destino": "Cartagena, Colombia (CTG)",
+            "fecha_salida": "2025-08-10 08:00",
+            "fecha_llegada": "2025-08-10 09:30"
+        }]
+    }
+}

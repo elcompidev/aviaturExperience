@@ -1,0 +1,104 @@
+   body {
+       font-family: 'Courier New', monospace;
+       background-color: #f5f5f5;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       margin: 0;
+   }
+   
+   .boarding-pass {
+       width: 350px;
+       background-color: white;
+       border: 1px solid #ddd;
+       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+       padding: 20px;
+       position: relative;
+   }
+   
+   .header {
+       text-align: center;
+       margin-bottom: 20px;
+       border-bottom: 2px solid #333;
+       padding-bottom: 10px;
+   }
+   
+   .main-title {
+       font-size: 18px;
+       font-weight: bold;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       margin: 0;
+   }
+   
+   .subtitle {
+       font-size: 14px;
+       margin: 5px 0 0;
+       text-transform: uppercase;
+   }
+   
+   .passenger-info {
+       margin-bottom: 20px;
+   }
+   
+   .info-row {
+       display: flex;
+       margin-bottom: 8px;
+   }
+   
+   .info-label {
+       font-weight: bold;
+       width: 120px;
+       text-transform: uppercase;
+   }
+   
+   .info-value {
+       flex-grow: 1;
+   }
+   
+   .destination {
+       text-align: center;
+       font-weight: bold;
+       margin: 15px 0;
+       font-size: 16px;
+   }
+   
+   .divider {
+       border-top: 1px dashed #333;
+       margin: 20px 0;
+       position: relative;
+   }
+   
+   .divider:after {
+       content: "✂";
+       position: absolute;
+       top: -12px;
+       left: 50%;
+       transform: translateX(-50%);
+       background: white;
+       padding: 0 10px;
+       font-size: 14px;
+   }
+   
+   .details-list {
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+   }
+   
+   .details-list li {
+       margin-bottom: 8px;
+       text-transform: uppercase;
+   }
+   
+   .details-list li:nth-child(odd) {
+       font-weight: bold;
+   }
+   
+   .barcode {
+       text-align: center;
+       margin-top: 20px;
+       font-family: 'Libre Barcode 128', cursive;
+       font-size: 36px;
+   }

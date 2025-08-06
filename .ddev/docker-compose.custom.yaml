@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres:15
+    container_name: ddev-${DDEV_SITENAME}-postgres
+    environment:
+      POSTGRES_USER: db
+      POSTGRES_PASSWORD: db
+      POSTGRES_DB: app
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  db_data:
