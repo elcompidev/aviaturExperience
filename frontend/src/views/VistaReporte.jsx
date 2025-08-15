@@ -16,7 +16,7 @@ const VistaReporte = () => {
   if (!reserva) return null;
 
   return (
-    /*<motion.div
+    <motion.div
       className="p-6"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -36,10 +36,10 @@ const VistaReporte = () => {
       >
         Ver experiencias
       </button>
-    </motion.div>*/
-     <div className="min-h-screen">
+    </motion.div>
+     /*<div className="min-h-screen">
           <BoardingPass />
-        </div>
+        </div>*/
   );
 };
 

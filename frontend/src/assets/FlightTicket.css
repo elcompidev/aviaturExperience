@@ -1,0 +1,19 @@
+.ticket {
+    max-width: 700px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.ticket-left {
+    flex: 2;
+}
+
+.ticket-right {
+    flex: 1;
+}
+
+.barcode-box {
+    background: repeating-linear-gradient( 90deg, black, black 2px, white 2px, white 4px);
+    height: 50px;
+    width: 100%;
+}

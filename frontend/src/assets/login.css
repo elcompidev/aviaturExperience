@@ -1,5 +1,10 @@
 /* login.css - Estilos personalizados para Login.js */
 
+body {
+    font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-weight: 600;
+}
+
 .login-container {
     width: 100%;
     padding-left: 1rem;
@@ -10,10 +15,26 @@
     justify-content: center;
     /*background-color: #f1f5f9;
     /* similar a bg-blueGray-100 */
-    background-image: url('https://media.viajando.travel/p/fc91755e0b07518515742abfac051fcf/adjuntos/236/imagenes/000/776/0000776922/1200x0/smart/hotel-las-islas-bungalow2webp.png');
+    background-image: url('hotel-las-islas-bungalow2webp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.aviatur-logo-text {
+    font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    /* peso aproximado del logotipo (ajusta a 600/700 si lo necesitas) */
+    font-weight: 700;
+    /* color aproximado azul de marca — lo ajustaré al hex exacto cuando tenga el SVG */
+    /*color: #0066cc;*/
+    /* tamaño y espaciado sugerido */
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    line-height: 1;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
 }
 
 
@@ -59,6 +80,12 @@
 
 .boton {
     background-color: #025DB8
+}
+
+.boton-text {
+    font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 .login-button:hover {

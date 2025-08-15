@@ -10,7 +10,7 @@ const useReserva = () => {
         const res = await validarReserva({ codigoReserva, nombreTitular });
         if (res.success) {
             localStorage.setItem('reserva', JSON.stringify(res.data));
-            navigate('/reporte');
+            navigate('/experience');
         } else {
             setError(res.message);
         }

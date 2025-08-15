@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import VistaConsulta from './views/VistaConsulta';
-import VistaReporte from './views/VistaReporte';
-import VistaExperiencias from './views/VistaExperiencias';
+import ExperienceView from './views/ExperienceView';
+
 
 const App = () => (
   <Router>
     <Routes>
       <Route path="/" element={<VistaConsulta />} />
-      <Route path="/reporte" element={<VistaReporte />} />
-      <Route path="/experiencias" element={<VistaExperiencias />} />
+      <Route path="/experience" element={<ExperienceView />} />
     </Routes>
   </Router>
 );
